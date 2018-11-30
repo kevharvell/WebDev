@@ -1,0 +1,9 @@
+<h1>{{getOrPost}} Request Received</h1>
+<ul>
+	{{#each dataListGet}}
+		<li>{{this.name}}: {{this.value}}
+	{{/each}}
+	{{#each dataListPost}}
+		<li>{{this.name}}: {{this.value}}
+	{{/each}}
+</ul>

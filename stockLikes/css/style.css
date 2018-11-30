@@ -1,0 +1,57 @@
+.carousel {
+  max-height: 700px;
+  overflow: hidden;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+				 0px 8px 13px rgba(0,0,0,0.1),
+				 0px 18px 23px rgba(0,0,0,0.1);
+	-webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  .item img {
+  	top: -50px;
+    width: 100%;
+    height: auto;
+  }
+}
+
+.carousel-caption {
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel h1 {
+	font-size: 5em;
+}
+
+.carousel p {
+	font-size: 2em;
+}
+
+
+/* Scroll Box Styles */
+.scrollbox {
+	padding: 5px;
+	width: 200px;
+	height: 200px;
+	overflow: auto;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+	width: 12px;
+	height: 12px;
+}
+
+::-webkit-scrollbar-track {
+	border: 1px solid #555;
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #666;  
+	border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;  
+}
+

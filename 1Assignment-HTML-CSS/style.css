@@ -1,0 +1,25 @@
+th:first-child {
+	font-weight: normal;
+}
+
+.outer-content {
+	margin-top: 20px;
+	margin-left: 0;
+	margin-right: auto;
+	width: 75%;
+	background-color: pink;
+}
+
+.inner-content {
+	margin: 0 auto;
+	background-color: blue;
+	width: 75%;
+}
+
+tbody tr:nth-of-type(even) {
+	background-color: SpringGreen;
+}
+
+tbody tr:nth-of-type(odd) {
+	background-color: MediumAquamarine;
+}
